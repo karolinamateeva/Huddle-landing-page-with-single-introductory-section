@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="background-image" type="image/png" sizes="32x32" href="./images/bg-desktop.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+
+    <style>
+        body,
+        header,
+        footer,
+        main,
+        h1,
+        img {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html {
+            background-image: url("./images/bg-desktop.png");
+            background-color: hsl(257, 40%, 49%);
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            margin: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .left-section {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+        }
+        
+        .logo {
+            max-width: 200px;
+            display: flex;
+            align-self: start;
+            margin-bottom: 100px;
+        }
+        
+        .right-section {
+            display: flex;
+            flex-direction: column;
+            margin-top: 200px;
+            margin-left: 100px;
+        }
+        
+        .heading {
+            font-weight: 700;
+            font-size: 40px;
+            max-width: 80%;
+            color: white;
+        }
+        
+        .paragraph {
+            font-weight: 400;
+            max-width: 77%;
+            color: white;
+        }
+        
+        .button {
+            margin-top: 10px;
+            background-color: white;
+            color: hsl(257, 40%, 49%);
+            font-weight: bold;
+            max-width: 200px;
+            height: 50px;
+            border: none;
+            border-radius: 40px;
+            box-shadow: 5px 10px 5px hsl(257, 51%, 40%);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="left-section">
+            <img class="logo" src="./images/logo.svg" alt="logo">
+            <img src="./images/illustration-mockups.png" alt="illustration-mockups">
+        </section>
+    </header>
+    <main>
+        <section class="right-section">
+            <h1 class="heading">Build The Community Your Fans Will Love</h1>
+            <p class="paragraph">
+                Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+            </p>
+            <button class="button">Register</button>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
